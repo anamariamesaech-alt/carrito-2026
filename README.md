@@ -1,18 +1,105 @@
-# React + Vite
+🛒 Carrito de Compras 2026 - React + Bootstrap
+📌 Descripción
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada con React y Bootstrap, que simula un sistema básico de carrito de compras.
 
-Currently, two official plugins are available:
+El objetivo principal es aplicar conceptos fundamentales como:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Componentes en React
 
-## React Compiler
+Uso de props
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Enrutamiento con React Router
 
-Note: This will impact Vite dev & build performances.
+Maquetación con Bootstrap
 
-## Expanding the ESLint configuration
+Organización de carpetas en un proyecto profesional
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación permite visualizar productos, mostrar una sección informativa del carrito 2026 y demostrar el uso de props mediante un componente de avatares.
+
+🚀 Características principales
+
+✅ Visualización dinámica de productos
+
+✅ Diseño responsive con Bootstrap
+
+✅ Uso de componentes reutilizables
+
+✅ Implementación de props en React
+
+✅ Navegación entre páginas con React Router
+
+✅ Estructura organizada por carpetas
+
+✅ Publicación en GitHub Pages
+
+🎨 Interfaz gráfica
+
+La interfaz está diseñada utilizando Bootstrap para garantizar:
+
+Diseño limpio y moderno
+
+Distribución en columnas responsivas
+
+Tarjetas para productos y perfiles
+
+Barra de navegación superior
+
+Adaptabilidad a dispositivos móviles
+
+Secciones principales:
+
+🔹 Inicio
+
+Muestra la lista de productos disponibles.
+
+Cada producto se presenta en una tarjeta con imagen, categoría y precio.
+
+🔹 Artículos
+
+Muestra el título "2026 Carrito de Compras".
+
+Representa la sección principal del sistema.
+
+🔹 Props
+
+Demuestra el uso de props mediante el componente Avatar.
+
+Se visualizan diferentes perfiles con imagen y nombre.
+
+🏗 Arquitectura del Proyecto
+
+El proyecto sigue una estructura modular organizada por responsabilidades:
+
+src/
+│
+├── assets/           → Imágenes locales del proyecto
+├── components/       → Componentes reutilizables (ProductCard, Avatar)
+├── pages/            → Páginas principales (Inicio, Articulos, Props)
+├── data/             → Datos simulados de productos
+├── App.jsx           → Configuración de rutas
+├── main.jsx          → Punto de entrada
+└── index.css         → Estilos globales
+Tecnologías utilizadas
+
+React
+
+Vite
+
+React Router DOM
+
+Bootstrap 5
+
+Git & GitHub
+
+GitHub Pages
+
+👩‍💻 Datos importantes del Autor
+
+Nombre: Ana Maria Mesa
+Proyecto: Carrito de Compras 2026
+Tecnología principal: React
+Año: 2026
+Publicación: GitHub Pages
+
+Este proyecto fue desarrollado como práctica académica para fortalecer conocimientos en desarrollo frontend con React y maquetación con Bootstrap.
